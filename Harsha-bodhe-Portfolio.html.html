@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsha Vijay Bodhe | Social & Performance Specialist (dentsu creative)</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        dentsu: {
+                            dark: '#0a0a0c',
+                            card: '#121218',
+                            border: '#232330',
+                            cyan: '#00f0ff',
+                            pink: '#ff007f',
+                            purple: '#7000ff',
+                            text: '#f1f5f9',
+                            muted: '#94a3b8'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0a0a0c;
+            color: #f1f5f9;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+        }
+        .glass-card {
+            background: rgba(18, 18, 24, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .glass-card:hover {
+            border-color: rgba(0, 240, 255, 0.3);
+            box-shadow: 0 10px 30px -10px rgba(0, 240, 255, 0.15);
+        }
+        .text-gradient-cyan {
+            background: linear-gradient(135deg, #00f0ff 0%, #7000ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .text-gradient-pink {
+            background: linear-gradient(135deg, #ff007f 0%, #7000ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .btn-gradient {
+            background: linear-gradient(135deg, #00f0ff 0%, #7000ff 100%);
+            transition: all 0.3s ease;
+        }
+        .btn-gradient:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 240, 255, 0.3);
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #0a0a0c;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #232330;
+            border-radius: 3px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #00f0ff;
+        }
+    </style>
+</head>
+<body class="custom-scrollbar">
+
+    <!-- Navigation Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 glass-card bg-opacity-80 border-b border-dentsu-border py-4 px-6 md:px-12">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="#" class="font-display font-bold text-xl tracking-wider text-white flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-dentsu-cyan animate-pulse"></span>
+                HARSHA BODHE <span class="text-xs text-dentsu-muted font-normal uppercase tracking-widest hidden sm:inline">| dentsu creative pitch</span>
+            </a>
+            
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-dentsu-muted">
+                <a href="#showcase" class="hover:text-dentsu-cyan transition-colors">Harsha & Shreyas</a>
+                <a href="#matrix" class="hover:text-dentsu-cyan transition-colors">dentsu Alignment</a>
+                <a href="#cases" class="hover:text-dentsu-cyan transition-colors">Case Studies</a>
+                <a href="#planner" class="hover:text-dentsu-cyan transition-colors">Campaign Planner</a>
+                <a href="#cv" class="hover:text-dentsu-cyan transition-colors">Tailored CV</a>
+            </nav>
+
+            <a href="#contact" class="btn-gradient text-black font-semibold px-5 py-2 rounded-full text-xs uppercase tracking-wider">
+                Let's Connect
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="pt-24 pb-16 px-4 md:px-8 max-w-7xl mx-auto space-y-24">
+
+        <!-- HERO SECTION -->
+        <section class="min-h-[85vh] flex flex-col justify-center items-center text-center relative py-12">
+            <!-- Background Glow FX -->
+            <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-dentsu-purple/20 rounded-full blur-[120px] pointer-events-none"></div>
+            <div class="absolute top-1/3 left-1/3 w-[300px] h-[300px] bg-dentsu-cyan/15 rounded-full blur-[100px] pointer-events-none"></div>
+
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card border border-dentsu-cyan/30 text-dentsu-cyan text-xs font-semibold uppercase tracking-widest mb-6">
+                <i class="fa-solid fa-bullhorn text-dentsu-pink"></i> 
+            </div>
+
+            <h1 class="font-display text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight text-white max-w-5xl leading-tight">
+                Fusing Creative Content Strategy, YouTube Growth & <span class="text-gradient-cyan">Performance Analytics</span>
+            </h1>
+
+            <p class="mt-6 text-lg md:text-xl text-dentsu-muted max-w-3xl font-light">
+                Hi, I'm <strong class="text-white">Harsha Vijay Bodhe</strong>. I bridge organic social storytelling (Harsha & Shreyas channel), digital campaign strategy, and metric-driven funnel execution for global brands.
+            </p>
+
+            <!-- Skill Badges -->
+            <div class="flex flex-wrap justify-center gap-3 mt-8 max-w-2xl">
+                <span class="px-3 py-1.5 rounded-md bg-dentsu-card border border-dentsu-border text-xs text-dentsu-text"><i class="fa-brands fa-youtube text-red-500 mr-1.5"></i> YouTube Channel Management</span>
+                <span class="px-3 py-1.5 rounded-md bg-dentsu-card border border-dentsu-border text-xs text-dentsu-text"><i class="fa-brands fa-instagram text-dentsu-pink mr-1.5"></i> Organic & Paid Social</span>
+                <span class="px-3 py-1.5 rounded-md bg-dentsu-card border border-dentsu-border text-xs text-dentsu-text"><i class="fa-solid fa-chart-line text-dentsu-cyan mr-1.5"></i> Social Analytics & Audits</span>
+                <span class="px-3 py-1.5 rounded-md bg-dentsu-card border border-dentsu-border text-xs text-dentsu-text"><i class="fa-solid fa-people-group text-dentsu-purple mr-1.5"></i> Client & Project Infrastructure</span>
+                <span class="px-3 py-1.5 rounded-md bg-dentsu-card border border-dentsu-border text-xs text-dentsu-text"><i class="fa-solid fa-language text-yellow-400 mr-1.5"></i> English (C2) & German (B1)</span>
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 mt-10">
+                <a href="#showcase" class="btn-gradient text-black font-bold px-8 py-4 rounded-xl text-sm uppercase tracking-wider flex items-center justify-center gap-2">
+                    Explore Social Showcase <i class="fa-solid fa-arrow-down"></i>
+                </a>
+                <a href="#cv" class="glass-card hover:bg-dentsu-card text-white font-semibold px-8 py-4 rounded-xl text-sm uppercase tracking-wider border border-dentsu-border flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-file-pdf text-dentsu-cyan"></i> View Tailored CV
+                </a>
+            </div>
+        </section>
+
+
+        <!-- SHOWCASE: HARSHA & SHREYAS CHANNEL -->
+        <section idshowcase id="showcase" class="scroll-mt-28 space-y-8">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-4 border-b border-dentsu-border pb-6">
+                <div>
+                    <span class="text-dentsu-pink text-xs font-bold uppercase tracking-widest">Creator Case Study</span>
+                    <h2 class="font-display text-3xl md:text-4xl font-bold text-white mt-1">Harsha & Shreyas Content Brand</h2>
+                </div>
+                <p class="text-dentsu-muted text-sm max-w-md">
+                    End-to-end channel creation, content strategy, video production, short-form Reels/Shorts adaptation, and audience engagement tracking.
+                </p>
+            </div>
+
+            <!-- Channel Stats Dashboard -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="glass-card p-6 rounded-2xl border border-dentsu-border relative overflow-hidden">
+                    <div class="text-dentsu-muted text-xs uppercase font-semibold">Total Audience Engagement</div>
+                    <div class="text-3xl md:text-4xl font-extrabold text-white mt-2">150K+</div>
+                    <div class="text-xs text-dentsu-cyan mt-1"><i class="fa-solid fa-arrow-trend-up"></i> High retention short-form</div>
+                </div>
+                <div class="glass-card p-6 rounded-2xl border border-dentsu-border relative overflow-hidden">
+                    <div class="text-dentsu-muted text-xs uppercase font-semibold">Viral Short Retention</div>
+                    <div class="text-3xl md:text-4xl font-extrabold text-dentsu-pink mt-2">82%</div>
+                    <div class="text-xs text-dentsu-muted mt-1">Hook optimization (first 3s)</div>
+                </div>
+                <div class="glass-card p-6 rounded-2xl border border-dentsu-border relative overflow-hidden">
+                    <div class="text-dentsu-muted text-xs uppercase font-semibold">Posting Consistency</div>
+                    <div class="text-3xl md:text-4xl font-extrabold text-white mt-2">Weekly</div>
+                    <div class="text-xs text-dentsu-cyan mt-1">Editorial calendar disciplined</div>
+                </div>
+                <div class="glass-card p-6 rounded-2xl border border-dentsu-border relative overflow-hidden">
+                    <div class="text-dentsu-muted text-xs uppercase font-semibold">Target Audience</div>
+                    <div class="text-3xl md:text-4xl font-extrabold text-dentsu-purple mt-2">DE / Global</div>
+                    <div class="text-xs text-dentsu-muted mt-1">Berlin expat & lifestyle demographic</div>
+                </div>
+            </div>
+
+            <!-- Content Creation Pillars -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Pillar 1 -->
+                <div class="glass-card p-6 rounded-2xl space-y-4">
+                    <div class="w-12 h-12 rounded-xl bg-red-500/10 text-red-500 flex items-center justify-center text-xl">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">YouTube Long-Form & Shorts</h3>
+                    <p class="text-dentsu-muted text-sm leading-relaxed">
+                        Conceptualizing video ideas, thumbnail A/B testing, script structuring, video editing, and metadata SEO to capture organic audience growth.
+                    </p>
+                    <ul class="text-xs text-dentsu-text space-y-2 pt-2 border-t border-dentsu-border">
+                        <li><i class="fa-solid fa-check text-dentsu-cyan mr-2"></i> Engaging intro storytelling</li>
+                        <li><i class="fa-solid fa-check text-dentsu-cyan mr-2"></i> Custom thumbnail design & click-through optimization</li>
+                    </ul>
+                </div>
+
+                <!-- Pillar 2 -->
+                <div class="glass-card p-6 rounded-2xl space-y-4">
+                    <div class="w-12 h-12 rounded-xl bg-dentsu-pink/10 text-dentsu-pink flex items-center justify-center text-xl">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Instagram Reels & Community</h3>
+                    <p class="text-dentsu-muted text-sm leading-relaxed">
+                        Repurposing core narratives into fast-paced Instagram Reels, micro-trends adaptation, interactive stories, and direct audience community building.
+                    </p>
+                    <ul class="text-xs text-dentsu-text space-y-2 pt-2 border-t border-dentsu-border">
+                        <li><i class="fa-solid fa-check text-dentsu-pink mr-2"></i> Trend audio pairing & visual timing</li>
+                        <li><i class="fa-solid fa-check text-dentsu-pink mr-2"></i> High comment-to-view interaction ratio</li>
+                    </ul>
+                </div>
+
+                <!-- Pillar 3 -->
+                <div class="glass-card p-6 rounded-2xl space-y-4">
+                    <div class="w-12 h-12 rounded-xl bg-dentsu-cyan/10 text-dentsu-cyan flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-chart-pie"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Analytics & Optimization</h3>
+                    <p class="text-dentsu-muted text-sm leading-relaxed">
+                        Monitoring YouTube Studio and Instagram Insights to analyze watch time drop-off curves, audience demographics, and click-through rates (CTR).
+                    </p>
+                    <ul class="text-xs text-dentsu-text space-y-2 pt-2 border-t border-dentsu-border">
+                        <li><i class="fa-solid fa-check text-dentsu-cyan mr-2"></i> Continuous iteration based on watch retention data</li>
+                        <li><i class="fa-solid fa-check text-dentsu-cyan mr-2"></i> Benchmark comparison vs. channel peers</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- DENTSU ALIGNMENT MATRIX -->
+        <section id="matrix" class="scroll-mt-28 space-y-8">
+            <div class="text-center max-w-3xl mx-auto space-y-3">
+                <span class="text-dentsu-cyan text-xs font-bold uppercase tracking-widest">Target Role Match</span>
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-white">dentsu creative Requirements Alignment</h2>
+                <p class="text-dentsu-muted text-sm">
+                    How my experience directly fulfills the key responsibilities specified in the Junior Social & Performance Consultant job description.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Requirement Card 1 -->
+                <div class="glass-card p-8 rounded-2xl border-l-4 border-l-dentsu-cyan space-y-3">
+                    <div class="flex justify-between items-center">
+                        <span class="text-xs font-bold text-dentsu-cyan uppercase">dentsu Responsibility #1</span>
+                        <i class="fa-solid fa-bullseye text-dentsu-cyan"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Social & Digital Campaign Strategy (Organic & Paid)</h3>
+                    <p class="text-dentsu-muted text-sm leading-relaxed">
+                        <em class="text-dentsu-text">dentsu requirement:</em> "Verantwortung für Planung, Umsetzung und Steuerung von organischen und paid Social Media Kampagnen."
+                    </p>
+                    <div class="bg-dentsu-dark/60 p-4 rounded-xl text-xs text-dentsu-text border border-dentsu-border">
+                        <strong>My Match:</strong> Proven experience planning, executing, and scaling organic social content across YouTube and Instagram, alongside digital performance campaign optimization at Yoona.ai.
+                    </div>
+                </div>
+
+                <!-- Requirement Card 2 -->
+                <div class="glass-card p-8 rounded-2xl border-l-4 border-l-dentsu-pink space-y-3">
+                    <div class="flex justify-between items-center">
+                        <span class="text-xs font-bold text-dentsu-pink uppercase">dentsu Responsibility #2</span>
+                        <i class="fa-solid fa-magnifying-glass-chart text-dentsu-pink"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Channel Audits, Benchmarks & Analytics Setup</h3>
+                    <p class="text-dentsu-muted text-sm leading-relaxed">
+                        <em class="text-dentsu-text">dentsu requirement:</em> "Du setzt Analysen (z.B. Audit, Wettbewerbsanalyse) und Ableitungen sowie Strategie-Dokumente auf."
+                    </p>
+                    <div class="bg-dentsu-dark/60 p-4 rounded-xl text-xs text-dentsu-text border border-dentsu-border">
+                        <strong>My Match:</strong> Built automated campaign performance reporting tools and structured multi-channel competitor audit frameworks at Yoona.ai and Nakster UG.
+                    </div>
+                </div>
+
+                <!-- Requirement Card 3 -->
+                <div class="glass-card p-8 rounded-2xl border-l-4 border-l-dentsu-purple space-y-3">
+                    <div class="flex justify-between items-center">
+                        <span class="text-xs font-bold text-dentsu-purple uppercase">dentsu Responsibility #3</span>
+                        <i class="fa-solid fa-diagram-project text-dentsu-purple"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Project Infrastructure & Client Consultation</h3>
+                    <p class="text-dentsu-muted text-sm leading-relaxed">
+                        <em class="text-dentsu-text">dentsu requirement:</em> "Du setzt die erforderliche Projektinfrastruktur auf (Zeitmanagement, Auswertungen, Meetings, Ressourcen)."
+                    </p>
+                    <div class="bg-dentsu-dark/60 p-4 rounded-xl text-xs text-dentsu-text border border-dentsu-border">
+                        <strong>My Match:</strong> Managed multi-stakeholder project alignment, created meeting infrastructure, and coordinated cross-functional timelines between creative and commercial leads.
+                    </div>
+                </div>
+
+                <!-- Requirement Card 4 -->
+                <div class="glass-card p-8 rounded-2xl border-l-4 border-l-yellow-400 space-y-3">
+                    <div class="flex justify-between items-center">
+                        <span class="text-xs font-bold text-yellow-400 uppercase">dentsu Responsibility #4</span>
+                        <i class="fa-solid fa-lightbulb text-yellow-400"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Trend Jacking & Creative Innovation</h3>
+                    <p class="text-dentsu-muted text-sm leading-relaxed">
+                        <em class="text-dentsu-text">dentsu requirement:</em> "Du bleibst auf dem Laufenden, wenn es um Trends und Innovationen im Bereich Social Media geht."
+                    </p>
+                    <div class="bg-dentsu-dark/60 p-4 rounded-xl text-xs text-dentsu-text border border-dentsu-border">
+                        <strong>My Match:</strong> Active video creator staying ahead of TikTok/Reels algorithms, short-form editing trends, viral hooks, and digital culture shifts.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CASE STUDIES -->
+        <section id="cases" class="scroll-mt-28 space-y-8">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-4 border-b border-dentsu-border pb-6">
+                <div>
+                    <span class="text-dentsu-cyan text-xs font-bold uppercase tracking-widest">Practical Experience</span>
+                    <h2 class="font-display text-3xl md:text-4xl font-bold text-white mt-1">Featured Campaign & Strategy Case Studies</h2>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <!-- Case Study 1 -->
+                <div class="glass-card p-8 rounded-2xl border border-dentsu-border">
+                    <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4">
+                        <div>
+                            <span class="px-3 py-1 rounded-full bg-red-500/10 text-red-500 text-xs font-semibold">Social Channel Building</span>
+                            <h3 class="text-2xl font-bold text-white mt-2">Harsha & Shreyas Content Growth & Retention</h3>
+                        </div>
+                        <span class="text-xs text-dentsu-muted bg-dentsu-dark px-3 py-1.5 rounded-lg border border-dentsu-border">YouTube & Instagram</span>
+                    </div>
+                    <p class="text-dentsu-muted text-sm leading-relaxed mb-6">
+                        Designed a organic multi-platform content roadmap targeting young professionals and international expats in Berlin. Optimized short-form hooks, storyline framing, and community interaction.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 border-t border-dentsu-border pt-4 text-xs">
+                        <div><strong class="text-white block">Key Action:</strong> Formatted Shorts/Reels to grab attention in first 2 seconds.</div>
+                        <div><strong class="text-dentsu-cyan block">Result:</strong> Accelerated view-through rate and built loyal follower base.</div>
+                        <div><strong class="text-dentsu-pink block">dentsu Value:</strong> Direct experience building & managing social media channels.</div>
+                    </div>
+                </div>
+
+                <!-- Case Study 2 -->
+                <div class="glass-card p-8 rounded-2xl border border-dentsu-border">
+                    <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4">
+                        <div>
+                            <span class="px-3 py-1 rounded-full bg-dentsu-cyan/10 text-dentsu-cyan text-xs font-semibold">Growth Operations</span>
+                            <h3 class="text-2xl font-bold text-white mt-2">Yoona.ai Digital Campaign & Funnel Optimization</h3>
+                        </div>
+                        <span class="text-xs text-dentsu-muted bg-dentsu-dark px-3 py-1.5 rounded-lg border border-dentsu-border">Berlin, Germany</span>
+                    </div>
+                    <p class="text-dentsu-muted text-sm leading-relaxed mb-6">
+                        Evaluated digital customer interaction touchpoints, built automated tracking workflows, and aligned cross-functional campaign initiatives across marketing, sales, and design teams.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 border-t border-dentsu-border pt-4 text-xs">
+                        <div><strong class="text-white block">Key Action:</strong> Streamlined tracking infrastructure across channels.</div>
+                        <div><strong class="text-dentsu-cyan block">Result:</strong> 30% faster conversion processing & clear reporting.</div>
+                        <div><strong class="text-dentsu-pink block">dentsu Value:</strong> Agency-style cross-team project orchestration.</div>
+                    </div>
+                </div>
+
+                <!-- Case Study 3 -->
+                <div class="glass-card p-8 rounded-2xl border border-dentsu-border">
+                    <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4">
+                        <div>
+                            <span class="px-3 py-1 rounded-full bg-dentsu-purple/10 text-dentsu-purple text-xs font-semibold">Analytics & Reporting</span>
+                            <h3 class="text-2xl font-bold text-white mt-2">Nakster UG Multi-Channel Performance Dashboard</h3>
+                        </div>
+                        <span class="text-xs text-dentsu-muted bg-dentsu-dark px-3 py-1.5 rounded-lg border border-dentsu-border">Berlin, Germany</span>
+                    </div>
+                    <p class="text-dentsu-muted text-sm leading-relaxed mb-6">
+                        Consolidated fragmented marketing campaign metrics into centralized reporting dashboards to support data-driven budget allocation decisions.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 border-t border-dentsu-border pt-4 text-xs">
+                        <div><strong class="text-white block">Key Action:</strong> Automated daily campaign performance tracking.</div>
+                        <div><strong class="text-dentsu-cyan block">Result:</strong> 85% reduction in manual reporting effort.</div>
+                        <div><strong class="text-dentsu-pink block">dentsu Value:</strong> Transparent client reporting & monitoring setup.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- INTERACTIVE STRATEGY & CAMPAIGN ESTIMATOR TOOL -->
+        <section id="planner" class="scroll-mt-28 space-y-8">
+            <div class="text-center max-w-3xl mx-auto space-y-3">
+                <span class="text-dentsu-pink text-xs font-bold uppercase tracking-widest">Interactive Widget</span>
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-white">Social Campaign Strategy Estimator</h2>
+                <p class="text-dentsu-muted text-sm">
+                    Select campaign parameters below to generate an instant strategic focus recommendation tailored for client proposals.
+                </p>
+            </div>
+
+            <div class="glass-card p-8 rounded-2xl border border-dentsu-border max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8">
+                <!-- Controls -->
+                <div class="md:col-span-5 space-y-6">
+                    <div>
+                        <label class="block text-xs font-semibold text-dentsu-muted uppercase mb-2">Target Social Platform</label>
+                        <select id="platformSelect" class="w-full bg-dentsu-dark border border-dentsu-border rounded-xl p-3 text-sm text-white focus:outline-none focus:border-dentsu-cyan">
+                            <option value="youtube">YouTube (Long-Form & Shorts)</option>
+                            <option value="instagram" selected>Instagram (Reels & Feed)</option>
+                            <option value="tiktok">TikTok (Viral Content)</option>
+                            <option value="linkedin">LinkedIn (B2B Thought Leadership)</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-semibold text-dentsu-muted uppercase mb-2">Primary Campaign Goal</label>
+                        <select id="goalSelect" class="w-full bg-dentsu-dark border border-dentsu-border rounded-xl p-3 text-sm text-white focus:outline-none focus:border-dentsu-cyan">
+                            <option value="awareness" selected>Brand Awareness & Viral Reach</option>
+                            <option value="engagement">Community Engagement & Loyalty</option>
+                            <option value="performance">Paid Conversions & Lead Generation</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-semibold text-dentsu-muted uppercase mb-2">Target Region</label>
+                        <select id="regionSelect" class="w-full bg-dentsu-dark border border-dentsu-border rounded-xl p-3 text-sm text-white focus:outline-none focus:border-dentsu-cyan">
+                            <option value="berlin">Berlin / Local Germany</option>
+                            <option value="dach">DACH Region</option>
+                            <option value="global">Pan-European / Global</option>
+                        </select>
+                    </div>
+
+                    <button onclick="updateCampaignStrategy()" class="w-full btn-gradient text-black font-bold py-3.5 rounded-xl text-xs uppercase tracking-wider">
+                        Generate Strategy Breakdown
+                    </button>
+                </div>
+
+                <!-- Output Display -->
+                <div class="md:col-span-7 bg-dentsu-dark/80 p-6 rounded-xl border border-dentsu-border flex flex-col justify-between space-y-4">
+                    <div>
+                        <div class="flex items-center justify-between pb-3 border-b border-dentsu-border">
+                            <span class="text-xs font-bold text-dentsu-cyan uppercase">Strategy Output</span>
+                            <span id="outputBadge" class="px-2.5 py-0.5 rounded text-[10px] bg-dentsu-pink/20 text-dentsu-pink font-semibold">INSTAGRAM / AWARENESS</span>
+                        </div>
+
+                        <div class="mt-4 space-y-3">
+                            <h4 id="outputTitle" class="text-lg font-bold text-white">Short-Form Reel Trend Pairing & Organic Hook Strategy</h4>
+                            <p id="outputDesc" class="text-xs text-dentsu-muted leading-relaxed">
+                                Focus heavily on trending audio clips paired with high-contrast text overlays in the first 2 seconds. Maintain an editorial cadence of 4-5 Reels per week.
+                            </p>
+                        </div>
+
+                        <div class="mt-6 space-y-2">
+                            <span class="text-[11px] font-semibold text-dentsu-muted uppercase block">Recommended Primary KPIs:</span>
+                            <div id="outputKPIs" class="flex flex-wrap gap-2 text-xs">
+                                <span class="px-2.5 py-1 rounded bg-dentsu-card border border-dentsu-border text-dentsu-cyan">Reach & Impressions</span>
+                                <span class="px-2.5 py-1 rounded bg-dentsu-card border border-dentsu-border text-dentsu-pink">3s Video Hook Rate</span>
+                                <span class="px-2.5 py-1 rounded bg-dentsu-card border border-dentsu-border text-dentsu-purple">Save & Share Ratio</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-3 border-t border-dentsu-border text-[11px] text-dentsu-muted flex items-center justify-between">
+                        <span><i class="fa-solid fa-circle-info text-dentsu-cyan mr-1"></i> Ready for dentsu client pitch framework</span>
+                        <span class="text-white font-semibold">dentsu creative alignment</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- TAILORED CV SECTION -->
+        <section id="cv" class="scroll-mt-28 space-y-8">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-4 border-b border-dentsu-border pb-6">
+                <div>
+                    <span class="text-dentsu-purple text-xs font-bold uppercase tracking-widest">Resume Summary</span>
+                    <h2 class="font-display text-3xl md:text-4xl font-bold text-white mt-1">Tailored CV Quick View</h2>
+                </div>
+                <div class="flex gap-3">
+                    <button onclick="downloadCVNotice()" class="btn-gradient text-black font-semibold px-5 py-2.5 rounded-xl text-xs uppercase tracking-wider">
+                        <i class="fa-solid fa-download mr-1"></i> Download PDF CV
+                    </button>
+                </div>
+            </div>
+
+            <div class="glass-card p-8 rounded-2xl border border-dentsu-border space-y-6">
+                <!-- Summary Header -->
+                <div class="flex flex-col sm:flex-row justify-between gap-4 pb-6 border-b border-dentsu-border">
+                    <div>
+                        <h3 class="text-2xl font-bold text-white">Harsha Vijay Bodhe, M.Sc.</h3>
+                        <p class="text-dentsu-cyan text-sm mt-1">Junior Social & Performance Consultant Target Profile</p>
+                    </div>
+                    <div class="text-xs text-dentsu-muted space-y-1">
+                        <div><i class="fa-solid fa-location-dot text-dentsu-pink mr-1.5"></i> Berlin, Germany</div>
+                        <div><i class="fa-solid fa-envelope text-dentsu-cyan mr-1.5"></i> harshaabodhe@gmail.com</div>
+                        <div><i class="fa-solid fa-phone text-dentsu-purple mr-1.5"></i> +49 15560844225</div>
+                    </div>
+                </div>
+
+                <!-- Roles Grid -->
+                <div class="space-y-4">
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-dentsu-muted">Relevant Professional Experience</h4>
+                    
+                    <div class="bg-dentsu-dark/60 p-4 rounded-xl border border-dentsu-border space-y-2">
+                        <div class="flex justify-between text-sm font-bold text-white">
+                            <span>Business Development & Growth Operations Analyst @ Yoona.ai</span>
+                            <span class="text-dentsu-muted text-xs font-normal">07/2026 – 08/2026 | Berlin</span>
+                        </div>
+                        <p class="text-xs text-dentsu-muted">Co-developed digital content growth initiatives, monitored multi-channel user signals, and accelerated campaign execution timelines by 30% for senior stakeholders.</p>
+                    </div>
+
+                    <div class="bg-dentsu-dark/60 p-4 rounded-xl border border-dentsu-border space-y-2">
+                        <div class="flex justify-between text-sm font-bold text-white">
+                            <span>Co-Founder & Social Media Manager @ Harsha & Shreyas Channel</span>
+                            <span class="text-dentsu-muted text-xs font-normal">2024 – Present | Berlin</span>
+                        </div>
+                        <p class="text-xs text-dentsu-muted">Managed channel brand strategy, video content editing, audience trend adaptation, short-form Reels production, and analytics monitoring for 150K+ combined video impressions.</p>
+                    </div>
+
+                    <div class="bg-dentsu-dark/60 p-4 rounded-xl border border-dentsu-border space-y-2">
+                        <div class="flex justify-between text-sm font-bold text-white">
+                            <span>Data Operations & Analytics Intern @ Nakster UG</span>
+                            <span class="text-dentsu-muted text-xs font-normal">04/2026 – 06/2026 | Berlin</span>
+                        </div>
+                        <p class="text-xs text-dentsu-muted">Engineered campaign reporting dashboards, eliminating 85% of reporting bottlenecks and ensuring 100% data accuracy for marketing budget planning.</p>
+                    </div>
+                </div>
+
+                <!-- Languages & Education -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 border-t border-dentsu-border text-xs">
+                    <div>
+                        <strong class="text-white block mb-1">Education:</strong>
+                        <span class="text-dentsu-muted">M.Sc. Data Science | University of Europe for Applied Sciences (Berlin)</span>
+                    </div>
+                    <div>
+                        <strong class="text-white block mb-1">Languages:</strong>
+                        <span class="text-dentsu-muted">English (C2 Fluent) | German (B1 Professional) | Marathi (Native)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="scroll-mt-28 space-y-8">
+            <div class="text-center max-w-3xl mx-auto space-y-3">
+                <span class="text-dentsu-cyan text-xs font-bold uppercase tracking-widest">Get In Touch</span>
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-white">Ready for dentsu creative Berlin</h2>
+                <p class="text-dentsu-muted text-sm">
+                    Available immediately ("ab sofort") for junior performance & social consulting roles.
+                </p>
+            </div>
+
+            <div class="glass-card p-8 rounded-2xl border border-dentsu-border max-w-xl mx-auto space-y-6">
+                <form onsubmit="handleFormSubmit(event)" class="space-y-4">
+                    <div>
+                        <label class="block text-xs font-semibold text-dentsu-muted uppercase mb-1">Your Name / Team</label>
+                        <input type="text" required placeholder="dentsu Recruiting Team" class="w-full bg-dentsu-dark border border-dentsu-border rounded-xl p-3 text-sm text-white focus:outline-none focus:border-dentsu-cyan">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-dentsu-muted uppercase mb-1">Your Email</label>
+                        <input type="email" required placeholder="recruiting@dentsu.com" class="w-full bg-dentsu-dark border border-dentsu-border rounded-xl p-3 text-sm text-white focus:outline-none focus:border-dentsu-cyan">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-dentsu-muted uppercase mb-1">Message</label>
+                        <textarea rows="4" required placeholder="Let's schedule an interview in Berlin..." class="w-full bg-dentsu-dark border border-dentsu-border rounded-xl p-3 text-sm text-white focus:outline-none focus:border-dentsu-cyan"></textarea>
+                    </div>
+                    <button type="submit" class="w-full btn-gradient text-black font-bold py-3.5 rounded-xl text-xs uppercase tracking-wider">
+                        Send Message
+                    </button>
+                </form>
+
+                <div id="contactToast" class="hidden p-3 bg-dentsu-cyan/20 border border-dentsu-cyan text-dentsu-cyan rounded-xl text-xs text-center">
+                    Message submitted! Thank you. I will reply immediately.
+                </div>
+
+                <div class="flex justify-center gap-6 pt-4 border-t border-dentsu-border text-xl text-dentsu-muted">
+                    <a href="https://www.linkedin.com/in/harsha-bodhe/" target="_blank" class="hover:text-dentsu-cyan"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/HarshaBodhe" target="_blank" class="hover:text-dentsu-cyan"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:harshaabodhe@gmail.com" class="hover:text-dentsu-pink"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-dentsu-border py-8 text-center text-xs text-dentsu-muted">
+        <p>© 2026 Harsha Vijay Bodhe. Designed specifically for dentsu creative Berlin application.</p>
+    </footer>
+
+    <!-- Interactive JS Script -->
+    <script>
+        // Interactive Campaign Estimator Logic
+        const strategyData = {
+            youtube: {
+                awareness: {
+                    title: "High-Impact Short-Form & Custom Thumbnail Strategy",
+                    desc: "Leverage YouTube Shorts for broad top-of-funnel reach while structuring 8-10 min long-form videos with click-optimized thumbnails to maximize average watch duration.",
+                    kpis: ["Impressions & CTR", "Average View Duration (AVD)", "Shorts Feed Swiped Away %"],
+                    badge: "YOUTUBE / AWARENESS"
+                },
+                engagement: {
+                    title: "Community Post & Live Q&A Engagement Cadence",
+                    desc: "Use YouTube Community polls, pinned comment interactions, and dedicated video responses to build a loyal subscriber community.",
+                    kpis: ["Comment-to-View Ratio", "Subscriber Retention", "Community Poll Votes"],
+                    badge: "YOUTUBE / ENGAGEMENT"
+                },
+                performance: {
+                    title: "Description CTA & End-Screen Conversion Funnel",
+                    desc: "Insert trackable UTM links in top-line video descriptions, pinned comments, and end-screen cards targeting high-intent product features.",
+                    kpis: ["Click-Through Rate (CTR)", "Cost Per Acquisition (CPA)", "End-Screen Clicks"],
+                    badge: "YOUTUBE / PERFORMANCE"
+                }
+            },
+            instagram: {
+                awareness: {
+                    title: "Short-Form Reel Trend Pairing & Organic Hook Strategy",
+                    desc: "Focus heavily on trending audio clips paired with high-contrast text overlays in the first 2 seconds. Maintain an editorial cadence of 4-5 Reels per week.",
+                    kpis: ["Reach & Impressions", "3s Video Hook Rate", "Save & Share Ratio"],
+                    badge: "INSTAGRAM / AWARENESS"
+                },
+                engagement: {
+                    title: "Interactive Story Stickers & DM Automation",
+                    desc: "Deploy daily interactive Instagram Stories (polls, questions, quizzes) paired with keyword-triggered DM automations to turn casual viewers into engaged followers.",
+                    kpis: ["Story Completion Rate", "Direct Message Inquiries", "Interactive Sticker Taps"],
+                    badge: "INSTAGRAM / ENGAGEMENT"
+                },
+                performance: {
+                    title: "Paid Meta Ads & retargeting Funnel Execution",
+                    desc: "Combine organic Reels high-performers with paid Meta ad campaigns targeting custom lookalike audiences in the DACH region.",
+                    kpis: ["Return On Ad Spend (ROAS)", "Cost Per Click (CPC)", "Conversion Rate"],
+                    badge: "INSTAGRAM / PERFORMANCE"
+                }
+            },
+            tiktok: {
+                awareness: {
+                    title: "Fast-Paced UGC Hook & Trend Jacking Strategy",
+                    desc: "Capitalize on emerging audio trends within 48 hours. Create raw, authentic UGC-style video content to feel native on the For You Page.",
+                    kpis: ["FYP Impression Ratio", "Video Completion Rate", "Viral Sound Re-uses"],
+                    badge: "TIKTOK / AWARENESS"
+                },
+                engagement: {
+                    title: "Duet & Stitch Collaborative Content Drives",
+                    desc: "Actively Stitch trending industry conversations and encourage audience Duets to amplify brand personality and community participation.",
+                    kpis: ["Stitch/Duet Counts", "Profile Visits", "Comments Count"],
+                    badge: "TIKTOK / ENGAGEMENT"
+                },
+                performance: {
+                    title: "Spark Ads & TikTok Shop Conversion Setup",
+                    desc: "Boost organic top-performing videos into Spark Ads to drive direct in-app or website conversions with clear calls to action.",
+                    kpis: ["Cost Per Lead (CPL)", "Click-Through Rate", "Order Conversions"],
+                    badge: "TIKTOK / PERFORMANCE"
+                }
+            },
+            linkedin: {
+                awareness: {
+                    title: "Executive Thought Leadership & Carousels",
+                    desc: "Publish PDF document carousels summarizing market audits, industry trends, and strategic insights for B2B decision-makers.",
+                    kpis: ["Feed Impressions", "Profile Views", "Reposts & Shares"],
+                    badge: "LINKEDIN / AWARENESS"
+                },
+                engagement: {
+                    title: "In-Depth Commentary & Employee Advocacy",
+                    desc: "Orchestrate team comment pods and long-form storytelling posts to spark meaningful professional discussions under brand topics.",
+                    kpis: ["Qualified Comment Rate", "Connection Growth", "InMail Inquiries"],
+                    badge: "LINKEDIN / ENGAGEMENT"
+                },
+                performance: {
+                    title: "Lead Gen Forms & Sponsored Content Campaigns",
+                    desc: "Run targeted LinkedIn Lead Gen Form campaigns serving high-value whitepapers or strategic consulting sessions to targeted job titles.",
+                    kpis: ["Form Completion Rate", "Cost Per Qualified Lead", "Pipeline Value"],
+                    badge: "LINKEDIN / PERFORMANCE"
+                }
+            }
+        };
+
+        function updateCampaignStrategy() {
+            const platform = document.getElementById('platformSelect').value;
+            const goal = document.getElementById('goalSelect').value;
+            
+            const data = strategyData[platform][goal];
+            
+            document.getElementById('outputBadge').innerText = data.badge;
+            document.getElementById('outputTitle').innerText = data.title;
+            document.getElementById('outputDesc').innerText = data.desc;
+
+            const kpisContainer = document.getElementById('outputKPIs');
+            kpisContainer.innerHTML = '';
+            data.kpis.forEach((kpi, idx) => {
+                const colors = ['text-dentsu-cyan', 'text-dentsu-pink', 'text-dentsu-purple'];
+                const span = document.createElement('span');
+                span.className = `px-2.5 py-1 rounded bg-dentsu-card border border-dentsu-border ${colors[idx % colors.length]}`;
+                span.innerText = kpi;
+                kpisContainer.appendChild(span);
+            });
+        }
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const toast = document.getElementById('contactToast');
+            toast.classList.remove('hidden');
+            setTimeout(() => {
+                toast.classList.add('hidden');
+            }, 4000);
+        }
+
+        function downloadCVNotice() {
+            const tempBtn = event.currentTarget;
+            const originalText = tempBtn.innerHTML;
+            tempBtn.innerHTML = '<i class="fa-solid fa-check mr-1"></i> Opening CV...';
+            setTimeout(() => {
+                tempBtn.innerHTML = originalText;
+                window.open('Harsha_Vijay_Bodhe_CV_Junior_Social_Performance_Consultant_Dentsu.pdf', '_blank');
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
